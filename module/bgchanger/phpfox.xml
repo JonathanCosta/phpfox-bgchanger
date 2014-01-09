@@ -1,0 +1,88 @@
+<module>
+	<data>
+		<module_id>bgchanger</module_id>
+		<product_id>bgchanger</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:1:{s:38:"bgchanger.admin_menu_manage_background";a:1:{s:3:"url";a:1:{i:0;s:9:"bgchanger";}}}]]></menu>
+		<phrase_var_name>module_bgchanger</phrase_var_name>
+	</data>
+	<settings>
+		<setting group="" module_id="bgchanger" is_hidden="0" type="boolean" var_name="show_menu" phrase_var_name="setting_show_menu" ordering="1" version_id="3.4.0">1</setting>
+		<setting group="" module_id="bgchanger" is_hidden="0" type="boolean" var_name="enable_recent_login_member_avatar" phrase_var_name="setting_enable_recent_login_member_avatar" ordering="1" version_id="3.4.0">0</setting>
+		<setting group="" module_id="bgchanger" is_hidden="0" type="integer" var_name="background_id" phrase_var_name="setting_background_id" ordering="1" version_id="3.4.0">6</setting>
+		<setting group="" module_id="bgchanger" is_hidden="0" type="boolean" var_name="random_background" phrase_var_name="setting_random_background" ordering="1" version_id="3.4.0">1</setting>
+		<setting group="" module_id="bgchanger" is_hidden="0" type="string" var_name="text_color" phrase_var_name="setting_text_color" ordering="1" version_id="3.4.0">ffffff</setting>
+		<setting group="" module_id="bgchanger" is_hidden="0" type="boolean" var_name="enable_user_image" phrase_var_name="setting_enable_user_image" ordering="1" version_id="3.4.0">1</setting>
+	</settings>
+	<blocks>
+		<block type_id="0" m_connection="core.index-visitor" module_id="bgchanger" component="background" location="11" is_active="1" ordering="4" disallow_access="" can_move="0">
+			<title>Background</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="bgchanger" component="background" m_connection="" module="bgchanger" is_controller="0" is_block="1" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="admin_menu_manage_background" added="1353483371">Manage Background</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="module_bgchanger" added="1353483371">Manage background</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="there_are_some_errors_happen_when_upload_this_image" added="1353484261">There are some errors happen when upload this image</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="image_path_can_not_empty" added="1353484279">Image path can not empty</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="bgchanger" added="1353484495">Bgchanger</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="manage_backgrounds" added="1353484513">Manage backgrounds</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="title" added="1353484531">Title</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="description" added="1353484642">Description</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="image_path" added="1353484655">Image path</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="signup" added="1353492704">Sign up</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="language" added="1353493343">Language</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="welcome_title" added="1353493611">Welcome to phpfox</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="welcome_description" added="1353493667">Enjoy and get your life.</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="username_or_email" added="1353496583">Username or email</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="password" added="1353496645">Password</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="setting_random_background" added="1353498065"><![CDATA[<title>Randon background</title><info>Set random background or not.</info>]]></phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="setting_background_id" added="1353498707"><![CDATA[<title>Background Id</title><info>Set default background when background randing mode is off.</info>]]></phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="upload_new_background" added="1353484719">Upload new background</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="upload" added="1353484738">Upload</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="id" added="1353484757">ID</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="background_image" added="1353484785">Background image</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="all_backgrounds" added="1353484854">All backgrounds</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="delete_background_successfully" added="1353484952">Delete background successfully</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="can_t_find_background_with_id_you_provide" added="1353484979"><![CDATA[Can&#039;t find background with id you provide]]></phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="upload_background_successfully" added="1353485000">Upload background successfully</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="update_background_successfully" added="1353485133">Update background successfully</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="edit_background" added="1353485580">Edit background</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="background_description" added="1353485605">Background description</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="update" added="1353485623">Update</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="random_background" added="1353486931">Random background</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="background_id" added="1353486947">Background ID</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="change_setting" added="1353487000">Change setting</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="update_setting" added="1353487205">Update setting</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="update_setting_successfully" added="1353487276">Update setting successfully</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="default_background_can_not_be_null_if_you_select_random_background_is_false" added="1353487485">Default background can not be null if you select random background is false</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="true" added="1353487971">True</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="false" added="1353487980">False</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="manage_icons" added="1353490586">Manage icons</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="not_a_valid_file_extension" added="1353490886">Not a valid file extension</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="unable_to_upload_image" added="1353490904">Unable to upload image</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="manage_icon" added="1353491058">Manage icon</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="change_icon" added="1353491123">Change icon</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="icon_site_not_found" added="1353491326">Icon site not found</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="upload_new_icon" added="1353491836">Upload new icon</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="icon_path" added="1353491978">Icon path</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="current_icon" added="1353494887">Current icon</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="icon_path_can_not_empty" added="1353495922">Icon path can not empty</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="upload_icon_successfully" added="1353496044">Upload icon successfully</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="setting_text_color" added="1353567896"><![CDATA[<title>Color</title><info>Set Color in Welcome Page.</info>]]></phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="setting_show_menu" added="1353567944"><![CDATA[<title>Show menu</title><info>Show main menu in visit page.</info>]]></phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="text_color" added="1353568114">Text Color</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="show_menu" added="1353568805">Show menu</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="explorer" added="1353569478">Explorer</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="setting_enable_recent_login_member_avatar" added="1353595395"><![CDATA[<title>Enable recent login member avatar</title><info>Enable recent login member avatar</info>]]></phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="automatically_resize" added="1353599877">Automatically Resize</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="sign_up" added="1353602817">SIGN UP</phrase>
+		<phrase module_id="bgchanger" version_id="3.4.0" var_name="setting_enable_user_image" added="1358334600"><![CDATA[<title>Enable User Image</title><info>This setting controls User Image block enable or not.</info>]]></phrase>
+	</phrases>
+</module>
